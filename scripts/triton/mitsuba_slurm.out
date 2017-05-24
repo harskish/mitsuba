@@ -1,0 +1,1094 @@
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+nodes = ivb25 ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+me = ivb32
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+me = ivb27
+me = ivb33
+me = ivb29
+me = ivb34
+master = ivb25
+master = ivb25
+master = ivb25
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+localid = 0
+localid = 0
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+Worker!
+Worker!
+Worker!
+me = ivb31
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+me = ivb25
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Master!
+me = ivb30
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+me = ivb28
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+me = ivb26
+master = ivb25
+workers = ivb26 ivb27 ivb28 ivb29 ivb30 ivb31 ivb32 ivb33 ivb34
+localid = 0
+workerlist = ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34
+Worker!
+Master comand: mitsuba /scratch/work/harkone2/scenes/kitchen2/batch_pt.xml -c 'ivb26;ivb27;ivb28;ivb29;ivb30;ivb31;ivb32;ivb33;ivb34' -p 9 -Dspp=5000
+2017-06-07 17:33:32 INFO  main [mitsuba.cpp:275] Mitsuba version 0.5.0 (Linux, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb26:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb27:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb28:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb29:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb30:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb31:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb32:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb33:7554"
+2017-06-07 17:33:32 INFO  main [SocketStream] Connecting to "ivb34:7554"
+2017-06-07 17:33:32 INFO  main [mitsuba.cpp:377] Parsing scene description from "/scratch/work/harkone2/scenes/kitchen2/batch_pt.xml" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/path.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/twosided.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/roughconductor.so" ..
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/roughplastic.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/thindielectric.so" ..
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2017-06-07 17:33:32 INFO  main [BitmapTexture] Loading texture "Worktopt-light.png"
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/plastic.so" ..
+2017-06-07 17:33:32 INFO  main [PluginManager] Loading plugin "plugins/dielectric.so" ..
+2017-06-07 17:33:32 INFO  main [BitmapTexture] Loading texture "Tabletop-light.png"
+2017-06-07 17:33:32 INFO  main [BitmapTexture] Loading texture "Chopping-Board.png"
+2017-06-07 17:33:32 INFO  main [BitmapTexture] Loading texture "Kitchen-book-leftpage.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Kitchen-bookpage-large.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Kitchen-carrot-uv.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Kitchen-mushroom-texture.png"
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Worktopt-light.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Tea-Towel.png"
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "radio-dial-idea.png"
+2017-06-07 17:33:33 INFO  main [PluginManager] Loading plugin "plugins/conductor.so" ..
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [PluginManager] Loading plugin "plugins/mask.so" ..
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "cushion-bump.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "cushion-red.png"
+2017-06-07 17:33:33 INFO  main [PluginManager] Loading plugin "plugins/bumpmap.so" ..
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "bread-bin-front-bump.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Worktopt-light.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Worktopt-light.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Worktopt-light.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Tabletop-light.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "cushion-red.png"
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "wood.png"
+2017-06-07 17:33:33 INFO  main [MIPMap] Mapped MIP map cache file "/scratch/work/harkone2/scenes/kitchen2/textures/wood.mip" into memory (14.3 MiB).
+2017-06-07 17:33:33 INFO  main [BitmapTexture] Loading texture "Kitchen-mushroom-texture.png"
+2017-06-07 17:33:33 INFO  main [PluginManager] Loading plugin "plugins/obj.so" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh129.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh129: 456 triangles, 250 vertices (merged 1118 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh129.obj" (took 12 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh165.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh165: 1792 triangles, 907 vertices (merged 4469 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh165.obj" (took 9 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh263.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh263: 5280 triangles, 2765 vertices (merged 13075 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh263.obj" (took 28 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh126.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh126: 1344 triangles, 741 vertices (merged 3291 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh126.obj" (took 7 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh087.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh087: 1344 triangles, 741 vertices (merged 3291 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh087.obj" (took 24 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh130.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh130: 1344 triangles, 741 vertices (merged 3291 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh130.obj" (took 7 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh088.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh088: 384 triangles, 204 vertices (merged 948 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh088.obj" (took 2 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh124.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh124: 1728 triangles, 988 vertices (merged 4196 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh124.obj" (took 10 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh136.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh136: 1728 triangles, 988 vertices (merged 4196 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh136.obj" (took 45 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh251.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh251: 1728 triangles, 988 vertices (merged 4196 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh251.obj" (took 40 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh164.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh164: 1728 triangles, 988 vertices (merged 4196 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh164.obj" (took 10 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh147.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh147: 640 triangles, 336 vertices (merged 1584 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh147.obj" (took 12 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh171.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh171: 2480 triangles, 2870 vertices (merged 4570 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh171.obj" (took 21 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh140.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh140: 2560 triangles, 1462 vertices (merged 6218 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh140.obj" (took 14 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh122.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh122: 13568 triangles, 6788 vertices (merged 33916 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh122.obj" (took 74 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh172.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh172: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh172.obj" (took 0 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh113.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh113: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh113.obj" (took 0 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh139.obj" ..
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Mesh139: 196 triangles, 312 vertices (merged 276 vertices).
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Done with "Mesh139.obj" (took 2 ms)
+2017-06-07 17:33:33 INFO  main [WavefrontOBJ] Loading geometry from "Mesh174.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh174: 20 triangles, 40 vertices (merged 20 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh174.obj" (took 34 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh144.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh144: 228 triangles, 442 vertices (merged 242 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh144.obj" (took 2 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh175.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh175: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh175.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh247.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh247: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh247.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh083.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh083: 28 triangles, 50 vertices (merged 34 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh083.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh178.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh178: 28 triangles, 54 vertices (merged 30 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh178.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh167.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh167: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh167.obj" (took 14 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh183.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh183: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh183.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh099.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh099: 28 triangles, 54 vertices (merged 30 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh099.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh284.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh284: 28 triangles, 50 vertices (merged 34 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh284.obj" (took 20 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh173.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh173: 108 triangles, 144 vertices (merged 180 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh173.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh184.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh184: 13856 triangles, 7954 vertices (merged 33614 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh184.obj" (took 78 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh155.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh155: 13856 triangles, 7954 vertices (merged 33614 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh155.obj" (took 116 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh159.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh159: 108 triangles, 144 vertices (merged 180 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh159.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh232.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh232: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh232.obj" (took 13 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh121.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh121: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh121.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh278.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh278: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh278.obj" (took 9 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh120.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh120: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh120.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh235.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh235: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh235.obj" (took 3 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh243.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh243: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh243.obj" (took 7 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh117.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh117: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh117.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh157.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh157: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh157.obj" (took 20 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh116.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh116: 228 triangles, 434 vertices (merged 250 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh116.obj" (took 3 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh207.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh207: 196 triangles, 310 vertices (merged 278 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh207.obj" (took 33 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh107.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh107: 20 triangles, 40 vertices (merged 20 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh107.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh112.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh112: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh112.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh287.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh287: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh287.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh105.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh105: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh105.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh103.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh103: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh103.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh102.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh102: 196 triangles, 312 vertices (merged 276 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh102.obj" (took 2 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh100.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh100: 20 triangles, 40 vertices (merged 20 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh100.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh095.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh095: 228 triangles, 434 vertices (merged 250 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh095.obj" (took 2 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh098.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh098: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh098.obj" (took 7 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh259.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh259: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh259.obj" (took 19 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh143.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh143: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh143.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh255.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh255: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh255.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh128.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh128: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh128.obj" (took 11 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh150.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh150: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh150.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh200.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh200: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh200.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh085.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh085: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh085.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh114.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh114: 108 triangles, 144 vertices (merged 180 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh114.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh182.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh182: 13856 triangles, 7954 vertices (merged 33614 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh182.obj" (took 79 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh082.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh082: 88 triangles, 192 vertices (merged 72 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh082.obj" (took 23 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh106.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh106: 88 triangles, 192 vertices (merged 72 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh106.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh132.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh132: 176 triangles, 384 vertices (merged 144 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh132.obj" (took 24 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh166.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh166: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh166.obj" (took 0 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh161.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh161: 76 triangles, 148 vertices (merged 80 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh161.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh137.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh137: 74 triangles, 154 vertices (merged 68 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh137.obj" (took 1 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh145.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh145: 51840 triangles, 25980 vertices (merged 129540 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh145.obj" (took 327 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh133.obj" ..
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Mesh133: 668 triangles, 992 vertices (merged 1012 vertices).
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Done with "Mesh133.obj" (took 6 ms)
+2017-06-07 17:33:34 INFO  main [WavefrontOBJ] Loading geometry from "Mesh074.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh074: 29824 triangles, 15162 vertices (merged 74310 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh074.obj" (took 192 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh068.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh068: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh068.obj" (took 0 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh125.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh125: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh125.obj" (took 0 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh079.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh079: 536 triangles, 734 vertices (merged 874 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh079.obj" (took 18 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh169.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh169: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh169.obj" (took 14 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh093.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh093: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh093.obj" (took 19 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh097.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh097: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh097.obj" (took 0 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh181.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh181: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh181.obj" (took 20 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh260.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh260: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh260.obj" (took 0 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh274.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh274: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh274.obj" (took 14 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh066.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh066: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh066.obj" (took 42 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh141.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh141: 804 triangles, 1112 vertices (merged 1300 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh141.obj" (took 24 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh238.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh238: 42432 triangles, 21210 vertices (merged 106086 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh238.obj" (took 267 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh076.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh076: 14912 triangles, 7581 vertices (merged 37155 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh076.obj" (took 118 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh177.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh177: 6656 triangles, 3362 vertices (merged 16606 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh177.obj" (took 76 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh185.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh185: 448 triangles, 280 vertices (merged 1064 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh185.obj" (took 2 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh186.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh186: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh186.obj" (took 2 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh188.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh188: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh188.obj" (took 12 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh189.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh189: 896 triangles, 482 vertices (merged 2206 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh189.obj" (took 4 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh115.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh115: 4608 triangles, 2368 vertices (merged 11456 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh115.obj" (took 24 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh162.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh162: 256 triangles, 165 vertices (merged 603 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh162.obj" (took 29 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh134.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh134: 2560 triangles, 1462 vertices (merged 6218 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh134.obj" (took 34 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh192.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh192: 2752 triangles, 1378 vertices (merged 6878 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh192.obj" (took 51 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh131.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh131: 2560 triangles, 1462 vertices (merged 6218 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh131.obj" (took 37 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh077.obj" ..
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Mesh077: 2560 triangles, 1462 vertices (merged 6218 vertices).
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Done with "Mesh077.obj" (took 15 ms)
+2017-06-07 17:33:35 INFO  main [WavefrontOBJ] Loading geometry from "Mesh229.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh229: 5248 triangles, 2902 vertices (merged 12842 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh229.obj" (took 29 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh281.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh281: 1632 triangles, 833 vertices (merged 4063 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh281.obj" (took 47 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh194.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh194: 12032 triangles, 6049 vertices (merged 30047 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh194.obj" (took 64 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh195.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh195: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh195.obj" (took 23 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh104.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh104: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh104.obj" (took 65 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh196.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh196: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh196.obj" (took 56 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh197.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh197: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh197.obj" (took 23 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh256.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh256: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh256.obj" (took 23 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh081.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh081: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh081.obj" (took 23 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh209.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh209: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh209.obj" (took 24 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh210.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh210: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh210.obj" (took 39 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh211.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh211: 1376 triangles, 750 vertices (merged 3378 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh211.obj" (took 7 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh213.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh213: 1376 triangles, 750 vertices (merged 3378 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh213.obj" (took 7 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh216.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh216: 5504 triangles, 2874 vertices (merged 13638 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh216.obj" (took 66 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh146.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh146: 1376 triangles, 750 vertices (merged 3378 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh146.obj" (took 7 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh219.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh219: 13856 triangles, 7954 vertices (merged 33614 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh219.obj" (took 78 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh220.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh220: 108 triangles, 144 vertices (merged 180 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh220.obj" (took 23 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh221.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh221: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh221.obj" (took 3 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh268.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh268: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh268.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh223.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh223: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh223.obj" (took 16 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh227.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh227: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh227.obj" (took 16 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh199.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh199: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh199.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh271.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh271: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh271.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh233.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh233: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh233.obj" (took 19 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh202.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh202: 28 triangles, 56 vertices (merged 28 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh202.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh230.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh230: 228 triangles, 434 vertices (merged 250 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh230.obj" (took 2 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh240.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh240: 196 triangles, 312 vertices (merged 276 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh240.obj" (took 2 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh176.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh176: 20 triangles, 40 vertices (merged 20 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh176.obj" (took 3 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh234.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh234: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh234.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh142.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh142: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh142.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh069.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh069: 35 triangles, 77 vertices (merged 28 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh069.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh236.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh236: 9 triangles, 19 vertices (merged 8 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh236.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh135.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh135: 2 triangles, 4 vertices (merged 2 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh135.obj" (took 3 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh153.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh153: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh153.obj" (took 0 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh239.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh239: 264 triangles, 394 vertices (merged 398 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh239.obj" (took 2 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh242.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh242: 20160 triangles, 10092 vertices (merged 50388 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh242.obj" (took 108 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh244.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh244: 2448 triangles, 1226 vertices (merged 6118 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh244.obj" (took 13 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh249.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh249: 2448 triangles, 1226 vertices (merged 6118 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh249.obj" (took 12 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh075.obj" ..
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Mesh075: 4224 triangles, 2364 vertices (merged 10308 vertices).
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Done with "Mesh075.obj" (took 56 ms)
+2017-06-07 17:33:36 INFO  main [WavefrontOBJ] Loading geometry from "Mesh291.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh291: 20000 triangles, 15330 vertices (merged 44670 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh291.obj" (took 133 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh254.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh254: 4992 triangles, 2529 vertices (merged 12447 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh254.obj" (took 63 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh257.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh257: 7104 triangles, 3569 vertices (merged 17743 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh257.obj" (took 38 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh258.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh258: 4992 triangles, 2529 vertices (merged 12447 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh258.obj" (took 26 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh089.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh089: 8640 triangles, 4337 vertices (merged 21583 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh089.obj" (took 45 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh261.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh261: 4992 triangles, 2630 vertices (merged 12346 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh261.obj" (took 27 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh119.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh119: 2752 triangles, 1437 vertices (merged 6819 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh119.obj" (took 15 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh264.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh264: 5888 triangles, 3046 vertices (merged 14618 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh264.obj" (took 72 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh127.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh127: 6720 triangles, 3362 vertices (merged 16798 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh127.obj" (took 36 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh091.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh091: 5248 triangles, 2626 vertices (merged 13118 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh091.obj" (took 27 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh225.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh225: 14272 triangles, 7138 vertices (merged 35678 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh225.obj" (took 76 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh266.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh266: 1680 triangles, 842 vertices (merged 4198 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh266.obj" (took 35 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh190.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh190: 14272 triangles, 7138 vertices (merged 35678 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh190.obj" (took 75 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh245.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh245: 5248 triangles, 2626 vertices (merged 13118 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh245.obj" (took 27 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh267.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh267: 1680 triangles, 842 vertices (merged 4198 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh267.obj" (took 8 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh179.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh179: 5248 triangles, 2626 vertices (merged 13118 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh179.obj" (took 28 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh269.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh269: 14272 triangles, 7138 vertices (merged 35678 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh269.obj" (took 76 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh270.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh270: 6720 triangles, 3362 vertices (merged 16798 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh270.obj" (took 35 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh214.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh214: 14272 triangles, 7138 vertices (merged 35678 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh214.obj" (took 75 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh108.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh108: 5248 triangles, 2626 vertices (merged 13118 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh108.obj" (took 28 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh080.obj" ..
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Mesh080: 14848 triangles, 7490 vertices (merged 37054 vertices).
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Done with "Mesh080.obj" (took 79 ms)
+2017-06-07 17:33:37 INFO  main [WavefrontOBJ] Loading geometry from "Mesh272.obj" ..
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Mesh272: 37120 triangles, 18566 vertices (merged 92794 vertices).
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Done with "Mesh272.obj" (took 199 ms)
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Loading geometry from "Mesh273.obj" ..
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Mesh273: 32768 triangles, 64779 vertices (merged 33525 vertices).
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Done with "Mesh273.obj" (took 481 ms)
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Loading geometry from "Mesh275.obj" ..
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Mesh275: 67840 triangles, 33990 vertices (merged 169530 vertices).
+2017-06-07 17:33:38 INFO  main [WavefrontOBJ] Done with "Mesh275.obj" (took 365 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh086.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh086: 14976 triangles, 7633 vertices (merged 37295 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh086.obj" (took 79 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh241.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh241: 22144 triangles, 11345 vertices (merged 55087 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh241.obj" (took 156 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh222.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh222: 4400 triangles, 2265 vertices (merged 10935 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh222.obj" (took 23 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh276.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh276: 5248 triangles, 2658 vertices (merged 13086 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh276.obj" (took 66 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh279.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh279: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh279.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh248.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh248: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh248.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh282.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh282: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh282.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh277.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh277: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh277.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh180.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh180: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh180.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh285.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh285: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh285.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh170.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh170: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh170.obj" (took 25 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh293.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh293: 800 triangles, 410 vertices (merged 1990 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh293.obj" (took 4 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh215.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh215: 5248 triangles, 2658 vertices (merged 13086 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh215.obj" (took 28 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh252.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh252: 18688 triangles, 9336 vertices (merged 46728 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh252.obj" (took 99 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh204.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh204: 5248 triangles, 2658 vertices (merged 13086 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh204.obj" (took 66 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh286.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh286: 12160 triangles, 6098 vertices (merged 30382 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh286.obj" (took 65 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh096.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh096: 5248 triangles, 2658 vertices (merged 13086 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh096.obj" (took 27 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh288.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh288: 12384 triangles, 6239 vertices (merged 30913 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh288.obj" (took 109 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh253.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh253: 5248 triangles, 2658 vertices (merged 13086 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh253.obj" (took 27 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh109.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh109: 6080 triangles, 3042 vertices (merged 15198 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh109.obj" (took 32 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh289.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh289: 3788 triangles, 2856 vertices (merged 8508 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh289.obj" (took 24 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh152.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh152: 16416 triangles, 8541 vertices (merged 40707 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh152.obj" (took 88 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh226.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh226: 1824 triangles, 949 vertices (merged 4523 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh226.obj" (took 9 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh290.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh290: 72 triangles, 48 vertices (merged 168 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh290.obj" (took 0 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh292.obj" ..
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Mesh292: 72 triangles, 48 vertices (merged 168 vertices).
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Done with "Mesh292.obj" (took 0 ms)
+2017-06-07 17:33:39 INFO  main [WavefrontOBJ] Loading geometry from "Mesh208.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh208: 96 triangles, 74 vertices (merged 214 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh208.obj" (took 21 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh191.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh191: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh191.obj" (took 0 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh201.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh201: 1536 triangles, 825 vertices (merged 3783 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh201.obj" (took 44 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh294.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh294: 72960 triangles, 36697 vertices (merged 182183 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh294.obj" (took 410 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh065.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh065: 13568 triangles, 6788 vertices (merged 33916 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh065.obj" (took 110 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh064.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh064: 12288 triangles, 6152 vertices (merged 30712 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh064.obj" (took 64 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh094.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh094: 15104 triangles, 7620 vertices (merged 37692 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh094.obj" (took 80 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh063.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh063: 1120 triangles, 682 vertices (merged 2678 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh063.obj" (took 24 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh062.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh062: 10176 triangles, 5090 vertices (merged 25438 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh062.obj" (took 60 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh092.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh092: 512 triangles, 330 vertices (merged 1206 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh092.obj" (took 3 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh061.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh061: 4096 triangles, 2050 vertices (merged 10238 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh061.obj" (took 28 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh059.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh059: 2560 triangles, 1312 vertices (merged 6368 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh059.obj" (took 13 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh058.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh058: 2176 triangles, 1122 vertices (merged 5406 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh058.obj" (took 11 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh057.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh057: 7168 triangles, 3878 vertices (merged 17626 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh057.obj" (took 39 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh056.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh056: 2480 triangles, 2870 vertices (merged 4570 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh056.obj" (took 20 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh055.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh055: 1032 triangles, 529 vertices (merged 2567 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh055.obj" (took 5 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh138.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh138: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh138.obj" (took 0 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh224.obj" ..
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Mesh224: 76 triangles, 148 vertices (merged 80 vertices).
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Done with "Mesh224.obj" (took 1 ms)
+2017-06-07 17:33:40 INFO  main [WavefrontOBJ] Loading geometry from "Mesh054.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh054: 51840 triangles, 25980 vertices (merged 129540 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh054.obj" (took 282 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh053.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh053: 16 triangles, 16 vertices (merged 32 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh053.obj" (took 7 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh052.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh052: 17408 triangles, 8768 vertices (merged 43456 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh052.obj" (took 117 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh050.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh050: 6144 triangles, 3136 vertices (merged 15296 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh050.obj" (took 32 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh049.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh049: 488 triangles, 912 vertices (merged 552 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh049.obj" (took 25 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh163.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh163: 68 triangles, 88 vertices (merged 116 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh163.obj" (took 23 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh154.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh154: 68 triangles, 88 vertices (merged 116 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh154.obj" (took 17 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh078.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh078: 29824 triangles, 15162 vertices (merged 74310 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh078.obj" (took 161 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh246.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh246: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh246.obj" (took 0 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh048.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh048: 20 triangles, 36 vertices (merged 24 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh048.obj" (took 0 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh047.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh047: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh047.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh046.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh046: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh046.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh045.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh045: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh045.obj" (took 14 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh044.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh044: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh044.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh043.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh043: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh043.obj" (took 8 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh041.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh041: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh041.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh193.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh193: 142 triangles, 200 vertices (merged 226 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh193.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh040.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh040: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh040.obj" (took 14 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh218.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh218: 142 triangles, 204 vertices (merged 222 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh218.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh039.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh039: 640 triangles, 606 vertices (merged 1314 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh039.obj" (took 4 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh187.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh187: 140 triangles, 232 vertices (merged 188 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh187.obj" (took 1 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh073.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh073: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh073.obj" (took 14 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh042.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh042: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh042.obj" (took 35 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh037.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh037: 5504 triangles, 2786 vertices (merged 13726 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh037.obj" (took 70 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh035.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh035: 1376 triangles, 706 vertices (merged 3422 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh035.obj" (took 7 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh034.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh034: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh034.obj" (took 15 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh033.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh033: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh033.obj" (took 14 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh038.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh038: 352 triangles, 768 vertices (merged 288 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh038.obj" (took 4 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh072.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh072: 264 triangles, 576 vertices (merged 216 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh072.obj" (took 21 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh231.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh231: 264 triangles, 576 vertices (merged 216 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh231.obj" (took 3 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh032.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh032: 35 triangles, 77 vertices (merged 28 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh032.obj" (took 0 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh031.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh031: 9 triangles, 19 vertices (merged 8 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh031.obj" (took 0 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh030.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh030: 44 triangles, 96 vertices (merged 36 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh030.obj" (took 0 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh029.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh029: 624 triangles, 896 vertices (merged 976 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh029.obj" (took 6 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh028.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh028: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh028.obj" (took 37 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh027.obj" ..
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Mesh027: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Done with "Mesh027.obj" (took 20 ms)
+2017-06-07 17:33:41 INFO  main [WavefrontOBJ] Loading geometry from "Mesh198.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh198: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh198.obj" (took 45 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh026.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh026: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh026.obj" (took 2 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh071.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh071: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh071.obj" (took 50 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh149.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh149: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh149.obj" (took 2 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh025.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh025: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh025.obj" (took 12 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh203.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh203: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh203.obj" (took 2 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh024.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh024: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh024.obj" (took 50 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh023.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh023: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh023.obj" (took 2 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh022.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh022: 2304 triangles, 1184 vertices (merged 5728 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh022.obj" (took 12 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh020.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh020: 448 triangles, 241 vertices (merged 1103 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh020.obj" (took 2 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh084.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh084: 2408 triangles, 1249 vertices (merged 5975 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh084.obj" (took 13 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh019.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh019: 5040 triangles, 2534 vertices (merged 12586 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh019.obj" (took 26 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh017.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh017: 7168 triangles, 3716 vertices (merged 17788 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh017.obj" (took 38 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh280.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh280: 36864 triangles, 18688 vertices (merged 91904 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh280.obj" (took 198 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh015.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh015: 13312 triangles, 6724 vertices (merged 33212 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh015.obj" (took 71 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh014.obj" ..
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Mesh014: 896 triangles, 560 vertices (merged 2128 vertices).
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Done with "Mesh014.obj" (took 39 ms)
+2017-06-07 17:33:42 INFO  main [WavefrontOBJ] Loading geometry from "Mesh090.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh090: 115328 triangles, 58013 vertices (merged 287971 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh090.obj" (took 619 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh206.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh206: 9472 triangles, 4740 vertices (merged 23676 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh206.obj" (took 50 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh228.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh228: 28 triangles, 44 vertices (merged 40 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh228.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh111.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh111: 96 triangles, 125 vertices (merged 163 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh111.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh168.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh168: 236 triangles, 380 vertices (merged 328 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh168.obj" (took 24 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh148.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh148: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh148.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh013.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh013: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh013.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh012.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh012: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh012.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh158.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh158: 35 triangles, 77 vertices (merged 28 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh158.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh237.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh237: 9 triangles, 19 vertices (merged 8 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh237.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh011.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh011: 668 triangles, 1004 vertices (merged 1000 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh011.obj" (took 6 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh018.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh018: 28 triangles, 44 vertices (merged 40 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh018.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh262.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh262: 292 triangles, 417 vertices (merged 459 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh262.obj" (took 3 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh010.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh010: 55 triangles, 77 vertices (merged 88 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh010.obj" (took 3 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh212.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh212: 28 triangles, 48 vertices (merged 36 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh212.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh156.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh156: 480 triangles, 252 vertices (merged 1188 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh156.obj" (took 2 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh151.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh151: 12 triangles, 12 vertices (merged 24 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh151.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh009.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh009: 600 triangles, 979 vertices (merged 821 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh009.obj" (took 34 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh110.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh110: 1472 triangles, 2597 vertices (merged 1819 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh110.obj" (took 16 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh118.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh118: 56 triangles, 88 vertices (merged 80 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh118.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh008.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh008: 384 triangles, 640 vertices (merged 512 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh008.obj" (took 4 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh007.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh007: 512 triangles, 288 vertices (merged 1248 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh007.obj" (took 3 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh250.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh250: 5184 triangles, 2594 vertices (merged 12958 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh250.obj" (took 27 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh021.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh021: 3520 triangles, 1841 vertices (merged 8719 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh021.obj" (took 18 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh205.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh205: 1408 triangles, 4120 vertices (merged 104 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh205.obj" (took 22 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh067.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh067: 4248 triangles, 4480 vertices (merged 8264 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh067.obj" (took 33 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh283.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh283: 12 triangles, 24 vertices (merged 12 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh283.obj" (took 0 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh005.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh005: 1024 triangles, 576 vertices (merged 2496 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh005.obj" (took 5 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh016.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh016: 768 triangles, 448 vertices (merged 1856 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh016.obj" (took 4 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh265.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh265: 960 triangles, 513 vertices (merged 2367 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh265.obj" (took 5 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh006.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh006: 1536 triangles, 772 vertices (merged 3836 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh006.obj" (took 8 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh004.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh004: 25952 triangles, 13797 vertices (merged 64059 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh004.obj" (took 142 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh060.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh060: 3328 triangles, 1672 vertices (merged 8312 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh060.obj" (took 17 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh123.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh123: 8576 triangles, 4322 vertices (merged 21406 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh123.obj" (took 45 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh160.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh160: 180 triangles, 110 vertices (merged 430 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh160.obj" (took 20 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh051.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh051: 2752 triangles, 1393 vertices (merged 6863 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh051.obj" (took 15 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh003.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh003: 6336 triangles, 3336 vertices (merged 15672 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh003.obj" (took 34 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh002.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh002: 5120 triangles, 2560 vertices (merged 12800 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh002.obj" (took 27 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh001.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh001: 1280 triangles, 640 vertices (merged 3200 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh001.obj" (took 45 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh036.obj" ..
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Mesh036: 17472 triangles, 9015 vertices (merged 43401 vertices).
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Done with "Mesh036.obj" (took 94 ms)
+2017-06-07 17:33:43 INFO  main [WavefrontOBJ] Loading geometry from "Mesh070.obj" ..
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Mesh070: 34848 triangles, 17689 vertices (merged 86855 vertices).
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Done with "Mesh070.obj" (took 252 ms)
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Loading geometry from "Mesh101.obj" ..
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Mesh101: 104 triangles, 81 vertices (merged 231 vertices).
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Done with "Mesh101.obj" (took 0 ms)
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Loading geometry from "Mesh000.obj" ..
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Mesh000: 1568 triangles, 786 vertices (merged 3918 vertices).
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Done with "Mesh000.obj" (took 38 ms)
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Loading geometry from "Mesh217.obj" ..
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Mesh217: 8336 triangles, 4166 vertices (merged 20842 vertices).
+2017-06-07 17:33:44 INFO  main [WavefrontOBJ] Done with "Mesh217.obj" (took 45 ms)
+2017-06-07 17:33:44 INFO  main [PluginManager] Loading plugin "plugins/area.so" ..
+2017-06-07 17:33:44 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2017-06-07 17:33:44 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (1443513 primitives) ..
+2017-06-07 17:33:45 INFO  ren0 [KDTreeBase] Finished -- took 1504 ms.
+2017-06-07 17:33:46 INFO  ren0 [SamplingIntegrator] Starting render job (1024x576, 5000 samples, 117 cores, SSE2 enabled) ..
+Rendering: [                                            ] (40.7s, ETA: 6.5h)  Rendering: [                                            ] (41.9s, ETA: 3.3h)  Rendering: [                                            ] (43.3s, ETA: 1.4h)  Rendering: [                                            ] (44.6s, ETA: 1.0h)  Rendering: [                                            ] (45.8s, ETA: 39.2m)  Rendering: [+                                           ] (46.9s, ETA: 27.4m)  Rendering: [+                                           ] (47.9s, ETA: 23.4m)  Rendering: [+                                           ] (49.1s, ETA: 18.8m)  Rendering: [++                                          ] (50.2s, ETA: 15.8m)  Rendering: [++                                          ] (53.2s, ETA: 14.6m)  Rendering: [+++                                         ] (54.3s, ETA: 11.2m)  Rendering: [+++                                         ] (55.3s, ETA: 9.3m)  Rendering: [++++                                        ] (56.3s, ETA: 7.4m)  Rendering: [+++++                                       ] (57.7s, ETA: 6.5m)  Rendering: [++++++                                      ] (58.9s, ETA: 5.7m)  Rendering: [+++++++                                     ] (1.0m, ETA: 5.3m)  Rendering: [+++++++                                     ] (1.0m, ETA: 5.0m)  Rendering: [+++++++                                     ] (1.0m, ETA: 5.0m)  Rendering: [+++++++                                     ] (1.1m, ETA: 4.9m)  Rendering: [++++++++                                    ] (1.1m, ETA: 4.9m)  Rendering: [++++++++                                    ] (1.1m, ETA: 4.8m)  Rendering: [++++++++                                    ] (1.2m, ETA: 4.9m)  Rendering: [++++++++                                    ] (1.2m, ETA: 4.9m)  Rendering: [++++++++                                    ] (1.2m, ETA: 4.9m)  Rendering: [++++++++                                    ] (1.2m, ETA: 4.8m)  Rendering: [+++++++++                                   ] (1.3m, ETA: 5.0m)  Rendering: [+++++++++                                   ] (1.3m, ETA: 5.1m)  Rendering: [+++++++++                                   ] (1.3m, ETA: 5.1m)  Rendering: [+++++++++                                   ] (1.4m, ETA: 5.1m)  Rendering: [+++++++++                                   ] (1.4m, ETA: 5.1m)  Rendering: [+++++++++                                   ] (1.4m, ETA: 5.1m)  Rendering: [+++++++++                                   ] (1.5m, ETA: 5.1m)  Rendering: [++++++++++                                  ] (1.5m, ETA: 5.1m)  Rendering: [++++++++++                                  ] (1.5m, ETA: 4.9m)  Rendering: [++++++++++                                  ] (1.5m, ETA: 4.9m)  Rendering: [++++++++++                                  ] (1.6m, ETA: 4.8m)  Rendering: [+++++++++++                                 ] (1.6m, ETA: 4.7m)  Rendering: [+++++++++++                                 ] (1.6m, ETA: 4.5m)  Rendering: [++++++++++++                                ] (1.6m, ETA: 4.3m)  Rendering: [++++++++++++                                ] (1.6m, ETA: 4.0m)  Rendering: [+++++++++++++                               ] (1.7m, ETA: 3.9m)  Rendering: [+++++++++++++                               ] (1.7m, ETA: 3.8m)  Rendering: [+++++++++++++                               ] (1.7m, ETA: 3.7m)  Rendering: [++++++++++++++                              ] (1.7m, ETA: 3.7m)  Rendering: [++++++++++++++                              ] (1.7m, ETA: 3.7m)  Rendering: [++++++++++++++                              ] (1.8m, ETA: 3.5m)  Rendering: [+++++++++++++++                             ] (1.8m, ETA: 3.4m)  Rendering: [+++++++++++++++                             ] (1.8m, ETA: 3.3m)  Rendering: [+++++++++++++++                             ] (1.8m, ETA: 3.2m)  Rendering: [++++++++++++++++                            ] (1.8m, ETA: 3.2m)  Rendering: [++++++++++++++++                            ] (1.9m, ETA: 3.1m)  Rendering: [++++++++++++++++                            ] (1.9m, ETA: 3.1m)  Rendering: [++++++++++++++++                            ] (1.9m, ETA: 3.1m)  Rendering: [+++++++++++++++++                           ] (1.9m, ETA: 3.1m)  Rendering: [+++++++++++++++++                           ] (2.0m, ETA: 3.0m)  Rendering: [+++++++++++++++++                           ] (2.0m, ETA: 3.1m)  Rendering: [+++++++++++++++++                           ] (2.0m, ETA: 3.0m)  Rendering: [+++++++++++++++++                           ] (2.0m, ETA: 3.0m)  Rendering: [++++++++++++++++++                          ] (2.1m, ETA: 3.0m)  Rendering: [++++++++++++++++++                          ] (2.1m, ETA: 2.9m)  Rendering: [++++++++++++++++++                          ] (2.1m, ETA: 2.9m)  Rendering: [++++++++++++++++++                          ] (2.1m, ETA: 2.9m)  Rendering: [++++++++++++++++++                          ] (2.2m, ETA: 2.9m)  Rendering: [+++++++++++++++++++                         ] (2.2m, ETA: 2.9m)  Rendering: [+++++++++++++++++++                         ] (2.2m, ETA: 2.8m)  Rendering: [+++++++++++++++++++                         ] (2.3m, ETA: 2.7m)  Rendering: [++++++++++++++++++++                        ] (2.3m, ETA: 2.7m)  Rendering: [++++++++++++++++++++                        ] (2.3m, ETA: 2.6m)  Rendering: [++++++++++++++++++++                        ] (2.3m, ETA: 2.6m)  Rendering: [+++++++++++++++++++++                       ] (2.3m, ETA: 2.5m)  Rendering: [+++++++++++++++++++++                       ] (2.4m, ETA: 2.4m)  Rendering: [++++++++++++++++++++++                      ] (2.4m, ETA: 2.4m)  Rendering: [++++++++++++++++++++++                      ] (2.4m, ETA: 2.4m)  Rendering: [++++++++++++++++++++++                      ] (2.4m, ETA: 2.3m)  Rendering: [++++++++++++++++++++++                      ] (2.5m, ETA: 2.3m)  Rendering: [+++++++++++++++++++++++                     ] (2.5m, ETA: 2.2m)  Rendering: [+++++++++++++++++++++++                     ] (2.5m, ETA: 2.1m)  Rendering: [++++++++++++++++++++++++                    ] (2.5m, ETA: 2.1m)  Rendering: [++++++++++++++++++++++++                    ] (2.5m, ETA: 2.0m)  Rendering: [++++++++++++++++++++++++                    ] (2.6m, ETA: 2.0m)  Rendering: [+++++++++++++++++++++++++                   ] (2.6m, ETA: 2.0m)  Rendering: [+++++++++++++++++++++++++                   ] (2.6m, ETA: 1.9m)  Rendering: [+++++++++++++++++++++++++                   ] (2.6m, ETA: 1.9m)  Rendering: [+++++++++++++++++++++++++                   ] (2.7m, ETA: 1.9m)  Rendering: [+++++++++++++++++++++++++                   ] (2.7m, ETA: 1.9m)  Rendering: [++++++++++++++++++++++++++                  ] (2.7m, ETA: 1.8m)  Rendering: [++++++++++++++++++++++++++                  ] (2.7m, ETA: 1.8m)  Rendering: [+++++++++++++++++++++++++++                 ] (2.7m, ETA: 1.7m)  Rendering: [+++++++++++++++++++++++++++                 ] (2.8m, ETA: 1.6m)  Rendering: [+++++++++++++++++++++++++++                 ] (2.8m, ETA: 1.6m)  Rendering: [++++++++++++++++++++++++++++                ] (2.8m, ETA: 1.6m)  Rendering: [++++++++++++++++++++++++++++                ] (2.8m, ETA: 1.6m)  Rendering: [++++++++++++++++++++++++++++                ] (2.9m, ETA: 1.5m)  Rendering: [+++++++++++++++++++++++++++++               ] (2.9m, ETA: 1.5m)  Rendering: [+++++++++++++++++++++++++++++               ] (2.9m, ETA: 1.4m)  Rendering: [+++++++++++++++++++++++++++++               ] (3.0m, ETA: 1.4m)  Rendering: [++++++++++++++++++++++++++++++              ] (3.0m, ETA: 1.4m)  Rendering: [++++++++++++++++++++++++++++++              ] (3.0m, ETA: 1.4m)  Rendering: [++++++++++++++++++++++++++++++              ] (3.0m, ETA: 1.3m)  Rendering: [+++++++++++++++++++++++++++++++             ] (3.0m, ETA: 1.3m)  Rendering: [+++++++++++++++++++++++++++++++             ] (3.1m, ETA: 1.2m)  Rendering: [+++++++++++++++++++++++++++++++             ] (3.1m, ETA: 1.2m)  Rendering: [+++++++++++++++++++++++++++++++             ] (3.1m, ETA: 1.2m)  Rendering: [++++++++++++++++++++++++++++++++            ] (3.1m, ETA: 1.2m)  Rendering: [++++++++++++++++++++++++++++++++            ] (3.2m, ETA: 1.1m)  Rendering: [++++++++++++++++++++++++++++++++            ] (3.2m, ETA: 1.1m)  Rendering: [+++++++++++++++++++++++++++++++++           ] (3.2m, ETA: 1.1m)  Rendering: [+++++++++++++++++++++++++++++++++           ] (3.2m, ETA: 1.0m)  Rendering: [+++++++++++++++++++++++++++++++++           ] (3.2m, ETA: 57.9s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (3.3m, ETA: 57.1s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (3.3m, ETA: 56.2s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (3.3m, ETA: 54.3s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (3.3m, ETA: 52.0s)  Rendering: [+++++++++++++++++++++++++++++++++++         ] (3.3m, ETA: 50.1s)  Rendering: [+++++++++++++++++++++++++++++++++++         ] (3.4m, ETA: 49.3s)  Rendering: [+++++++++++++++++++++++++++++++++++         ] (3.4m, ETA: 45.8s)  Rendering: [++++++++++++++++++++++++++++++++++++        ] (3.4m, ETA: 43.5s)  Rendering: [++++++++++++++++++++++++++++++++++++        ] (3.4m, ETA: 41.7s)  Rendering: [++++++++++++++++++++++++++++++++++++        ] (3.5m, ETA: 41.5s)  Rendering: [+++++++++++++++++++++++++++++++++++++       ] (3.5m, ETA: 39.1s)  Rendering: [+++++++++++++++++++++++++++++++++++++       ] (3.5m, ETA: 37.8s)  Rendering: [+++++++++++++++++++++++++++++++++++++       ] (3.5m, ETA: 36.0s)  Rendering: [+++++++++++++++++++++++++++++++++++++       ] (3.5m, ETA: 34.7s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.6m, ETA: 33.1s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.6m, ETA: 31.8s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.6m, ETA: 31.1s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.7m, ETA: 30.3s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.7m, ETA: 29.5s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (3.7m, ETA: 28.7s)  Rendering: [+++++++++++++++++++++++++++++++++++++++     ] (3.7m, ETA: 27.9s)  Rendering: [+++++++++++++++++++++++++++++++++++++++     ] (3.8m, ETA: 27.7s)  Rendering: [+++++++++++++++++++++++++++++++++++++++     ] (3.8m, ETA: 25.1s)  Rendering: [+++++++++++++++++++++++++++++++++++++++     ] (3.8m, ETA: 23.8s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (3.8m, ETA: 21.5s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (3.9m, ETA: 20.2s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (3.9m, ETA: 18.3s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (3.9m, ETA: 17.5s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++   ] (4.0m, ETA: 15.8s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++   ] (4.0m, ETA: 13.1s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++   ] (4.0m, ETA: 11.8s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++  ] (4.1m, ETA: 10.6s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++  ] (4.1m, ETA: 9.7s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++  ] (4.1m, ETA: 8.0s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++  ] (4.1m, ETA: 6.2s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++++ ] (4.2m, ETA: 4.9s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++++ ] (4.2m, ETA: 3.1s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++++ ] (4.2m, ETA: 0.9s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++++] (4.3m, ETA: 0.0s)  
+2017-06-07 17:38:06 INFO  ren0 [RenderJob] Render time: 4.3733m
+2017-06-07 17:38:06 INFO  ren0 [HDRFilm] Writing image to "/scratch/work/harkone2/scenes/kitchen2/batch_pt.exr" ..
+2017-06-07 17:38:06 WARN  ren0 [RenderJob] Rendering of scene "batch_pt.xml" did not complete successfully, caught exception: ren0 [Bitmap] Bitmap::writeOpenEXR(): OpenEXR support was disabled at compile time!
+2017-06-07 17:38:06 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins/area.so [Area light]
+    -  plugins/bitmap.so [Bitmap texture]
+    -  plugins/box.so [Box filter]
+    -  plugins/bumpmap.so [Bump map modifier]
+    -  plugins/conductor.so [Smooth conductor]
+    -  plugins/dielectric.so [Smooth dielectric BSDF]
+    -  plugins/diffuse.so [Smooth diffuse BRDF]
+    -  plugins/hdrfilm.so [High dynamic range film]
+    -  plugins/independent.so [Independent sampler]
+    -  plugins/lanczos.so [Lanczos Sinc filter]
+    -  plugins/mask.so [Mask BSDF]
+    -  plugins/obj.so [OBJ triangle mesh loader]
+    -  plugins/path.so [MI path tracer]
+    -  plugins/perspective.so [Perspective camera]
+    -  plugins/plastic.so [Smooth plastic BRDF]
+    -  plugins/rectangle.so [Rectangle intersection primitive]
+    -  plugins/roughconductor.so [Rough conductor BRDF]
+    -  plugins/roughplastic.so [Rough plastic BRDF]
+    -  plugins/thindielectric.so [Thin dielectric BSDF]
+    -  plugins/twosided.so [Two-sided BRDF adapter]
+
+  * General :
+    -  Normal rays traced : 968.480 M
+    -  Shadow rays traced : 500.050 M
+
+  * Network :
+    -  Bytes received : 12.590 M
+    -  Bytes sent : 443.919 M
+
+  * Path tracer :
+    -  Average path length : 5.91 (968.40 M / 163.84 M)
+
+  * Texture system :
+    -  Cumulative MIP map memory allocations : 64.579 MiB
+    -  Filtered texture lookups : 7.65 % (14.32 M of 187.20 M)
+------------------------------------------------------------
+Running command ssh ivb26 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb27 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb28 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb29 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb30 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb31 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb32 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb33 'pkill -U harkone2 mtssrv' &
+Running command ssh ivb34 'pkill -U harkone2 mtssrv' &
+All servers closed
