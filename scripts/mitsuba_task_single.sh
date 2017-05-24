@@ -20,14 +20,12 @@ workerlist=${workers// /;}
 
 if [[ "$me" == "$master" && "$localid" -eq 0 ]]
 then
-   # Run these if the process is the master task
-   echo "I'm the master with number "$localid" in node "${me}". My subordinates are "$workers
+   # Master
    sleep 5
    command="mitsuba $HOME/scenes/veach-bidir-mlt/veach-bidir-mlt.xml -c '$workerlist'"
    echo "Master comand: $command"
    eval $command
 else
-   # Run these if the process is a worker
-   # echo "I'm a worker number "$localid" in node "${me}
+   # Worker
    mtssrv
 fi
