@@ -1,0 +1,196 @@
+I'm the master with number 0 in node c75. My subordinates are c214 c379 c380
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:230] Mitsuba version 0.5.0 (Linux, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:339] Enter mtssrv -h for more options
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:364] c214: Listening on port 7554.. Send Ctrl-C or SIGTERM to stop.
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:230] Mitsuba version 0.5.0 (Linux, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:339] Enter mtssrv -h for more options
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:364] c380: Listening on port 7554.. Send Ctrl-C or SIGTERM to stop.
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:230] Mitsuba version 0.5.0 (Linux, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:339] Enter mtssrv -h for more options
+2017-05-23 16:59:12 INFO  main [mtssrv.cpp:364] c379: Listening on port 7554.. Send Ctrl-C or SIGTERM to stop.
+Master comand: mitsuba /homeappl/home/harkone2/scenes/veach-bidir-mlt/veach-bidir-mlt.xml -c 'c214;c379;c380'
+2017-05-23 16:59:17 INFO  main [mitsuba.cpp:275] Mitsuba version 0.5.0 (Linux, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2017-05-23 16:59:17 INFO  main [SocketStream] Connecting to "c214:7554"
+2017-05-23 16:59:17 INFO  con0 [StreamBackend] Incoming connection from 10.10.1.75
+2017-05-23 16:59:17 INFO  main [SocketStream] Connecting to "c379:7554"
+2017-05-23 16:59:17 INFO  con0 [StreamBackend] Incoming connection from 10.10.1.75
+2017-05-23 16:59:17 INFO  main [SocketStream] Connecting to "c380:7554"
+2017-05-23 16:59:17 INFO  con0 [StreamBackend] Incoming connection from 10.10.1.75
+2017-05-23 16:59:17 INFO  main [mitsuba.cpp:377] Parsing scene description from "/homeappl/home/harkone2/scenes/veach-bidir-mlt/veach-bidir-mlt.xml" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/mlt.so" ..
+2017-05-23 16:59:17 WARN  main [scenehandler.cpp:795] In file "/homeappl/home/harkone2/scenes/veach-bidir-mlt/veach-bidir-mlt.xml" (near line 20): Unqueried attribute "mutationsPerSeed" in element "integrator"
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2017-05-23 16:59:17 WARN  main [scenehandler.cpp:795] In file "/homeappl/home/harkone2/scenes/veach-bidir-mlt/veach-bidir-mlt.xml" (near line 35): Unqueried attribute "seed" in element "sampler"
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/roughdielectric.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/ward.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/serialized.so" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 0 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 1 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 2 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 3 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 4 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 5 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [PluginManager] Loading plugin "plugins/area.so" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 6 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 7 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 8 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 9 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  main [SerializedMesh] Loading shape 10 from "bidir.serialized" ..
+2017-05-23 16:59:17 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (3392 primitives) ..
+2017-05-23 16:59:17 INFO  ren0 [KDTreeBase] Finished -- took 25 ms.
+2017-05-23 16:59:17 INFO  ren0 [MLT] Starting render job (1024x576, 4 cores, SSE2 enabled, approx. 64 mutations/pixel) ..
+2017-05-23 16:59:17 INFO  ren0 [PluginManager] Loading plugin "plugins/direct.so" ..
+2017-05-23 16:59:17 INFO  ren0 [PluginManager] Loading plugin "plugins/ldsampler.so" ..
+2017-05-23 16:59:17 INFO  ren0 [SamplingIntegrator] Starting render job (1024x576, 8 samples, 4 cores, SSE2 enabled) ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/area.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/area.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/area.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/box.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/box.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/direct.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/independent.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ldsampler.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/box.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/direct.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/mlt.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/perspective.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/roughdielectric.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/serialized.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/independent.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ward.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/direct.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ldsampler.so" ..
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Constructing a SAH kd-tree (3392 primitives) ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/mlt.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/perspective.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/independent.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/roughdielectric.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ldsampler.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/serialized.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/mlt.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ward.so" ..
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Constructing a SAH kd-tree (3392 primitives) ..
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Finished -- took 25 ms.
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/perspective.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/roughdielectric.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/serialized.so" ..
+2017-05-23 16:59:17 INFO  con0 [PluginManager] Loading plugin "plugins/ward.so" ..
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Constructing a SAH kd-tree (3392 primitives) ..
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Finished -- took 25 ms.
+2017-05-23 16:59:17 INFO  con0 [KDTreeBase] Finished -- took 32 ms.
+Rendering: [++++                                        ] (1.0s, ETA: 8.9s)  Rendering: [+++++++++                                   ] (2.0s, ETA: 7.4s)  Rendering: [++++++++++++++                              ] (3.0s, ETA: 6.2s)  Rendering: [+++++++++++++++++++                         ] (4.1s, ETA: 5.1s)  Rendering: [++++++++++++++++++++++++                    ] (5.1s, ETA: 4.1s)  Rendering: [+++++++++++++++++++++++++++++               ] (6.1s, ETA: 3.1s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (7.1s, ETA: 2.0s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (8.1s, ETA: 0.8s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++++] (8.8s, ETA: 0.0s)  
+2017-05-23 16:59:26 INFO  ren0 [PathSampler] Integrating luminance values over the image plane (100000 samples)..
+2017-05-23 16:59:30 INFO  ren0 [PathSampler] Done -- average luminance value = 0.195422, stddev = 0.224310 (took 3909 ms)
+2017-05-23 16:59:30 WARN  wrk0 [ManifoldPerturbation] Internal error in manifold perturbation: luminance = inf!
+2017-05-23 16:59:30 WARN  wrk0 [ManifoldPerturbation] Internal error in manifold perturbation: luminance = inf!
+2017-05-23 16:59:30 WARN  wrk0 [ManifoldPerturbation] Internal error in manifold perturbation: luminance = inf!
+2017-05-23 16:59:30 WARN  wrk0 [ManifoldPerturbation] Internal error in manifold perturbation: luminance = inf!
+2017-05-23 16:59:30 WARN  wrk0 [ManifoldPerturbation] Internal error in manifold perturbation: luminance = inf!
+Rendering: [                                            ] (1.0s, ETA: 1.6m)  Rendering: [+                                           ] (2.1s, ETA: 54.8s)  Rendering: [++                                          ] (3.6s, ETA: 58.0s)  Rendering: [+++                                         ] (4.9s, ETA: 52.9s)  Rendering: [++++                                        ] (6.0s, ETA: 48.2s)  Rendering: [++++++                                      ] (7.3s, ETA: 45.9s)  
+2017-05-23 16:59:38 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:38 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:38 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+Rendering: [+++++++                                     ] (8.5s, ETA: 43.4s)  Rendering: [++++++++                                    ] (9.8s, ETA: 43.0s)  Rendering: [+++++++++                                   ] (11.0s, ETA: 41.0s)  Rendering: [++++++++++                                  ] (12.1s, ETA: 38.6s)  
+2017-05-23 16:59:43 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:43 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = inf!
+Rendering: [+++++++++++                                 ] (13.4s, ETA: 37.3s)  Rendering: [++++++++++++                                ] (14.5s, ETA: 36.2s)  Rendering: [+++++++++++++                               ] (15.7s, ETA: 34.7s)  Rendering: [++++++++++++++                              ] (16.9s, ETA: 33.7s)  2017-05-23 16:59:47 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:47 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = -nan!
+Rendering: [++++++++++++++++                            ] (18.2s, ETA: 31.6s)  Rendering: [+++++++++++++++++                           ] (19.3s, ETA: 30.1s)  2017-05-23 16:59:50 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:50 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:50 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+Rendering: [++++++++++++++++++                          ] (20.5s, ETA: 29.2s)  Rendering: [+++++++++++++++++++                         ] (21.7s, ETA: 27.8s)  Rendering: [++++++++++++++++++++                        ] (22.9s, ETA: 26.8s)  Rendering: [+++++++++++++++++++++                       ] (23.9s, ETA: 25.8s)  Rendering: [++++++++++++++++++++++                      ] (24.9s, ETA: 24.2s)  Rendering: [+++++++++++++++++++++++                     ] (26.2s, ETA: 22.8s)  2017-05-23 16:59:56 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:56 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = inf!
+Rendering: [++++++++++++++++++++++++                    ] (27.3s, ETA: 21.8s)  Rendering: [+++++++++++++++++++++++++                   ] (28.8s, ETA: 20.7s)  2017-05-23 16:59:59 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:59 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:59 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:59 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 16:59:59 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+Rendering: [++++++++++++++++++++++++++                  ] (29.8s, ETA: 19.2s)  Rendering: [+++++++++++++++++++++++++++                 ] (31.1s, ETA: 17.9s)  2017-05-23 17:00:02 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+Rendering: [+++++++++++++++++++++++++++++               ] (32.6s, ETA: 16.7s)  Rendering: [++++++++++++++++++++++++++++++              ] (33.6s, ETA: 15.3s)  2017-05-23 17:00:04 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 17:00:04 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 17:00:04 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 17:00:04 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+2017-05-23 17:00:04 WARN  wrk0 [BidirectionalMutator] Internal error: luminance = 0.000000!
+Rendering: [+++++++++++++++++++++++++++++++             ] (34.8s, ETA: 13.9s)  Rendering: [++++++++++++++++++++++++++++++++            ] (36.5s, ETA: 12.8s)  Rendering: [+++++++++++++++++++++++++++++++++           ] (37.5s, ETA: 11.4s)  Rendering: [++++++++++++++++++++++++++++++++++          ] (38.5s, ETA: 10.0s)  Rendering: [++++++++++++++++++++++++++++++++++++        ] (40.3s, ETA: 8.8s)  Rendering: [+++++++++++++++++++++++++++++++++++++       ] (41.4s, ETA: 7.2s)  Rendering: [++++++++++++++++++++++++++++++++++++++      ] (42.8s, ETA: 5.9s)  Rendering: [+++++++++++++++++++++++++++++++++++++++     ] (44.0s, ETA: 4.9s)  Rendering: [++++++++++++++++++++++++++++++++++++++++    ] (45.0s, ETA: 3.9s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++   ] (46.4s, ETA: 2.6s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++  ] (47.4s, ETA: 1.3s)  Rendering: [+++++++++++++++++++++++++++++++++++++++++++ ] (48.4s, ETA: 0.5s)  Rendering: [++++++++++++++++++++++++++++++++++++++++++++] (49.4s, ETA: 0.0s)  
+2017-05-23 17:00:19 INFO  ren0 [RenderJob] Render time: 1.0366m
+2017-05-23 17:00:19 INFO  ren0 [HDRFilm] Writing image to "/homeappl/home/harkone2/scenes/veach-bidir-mlt/veach-bidir-mlt.exr" ..
+2017-05-23 17:00:20 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins/area.so [Area light]
+    -  plugins/box.so [Box filter]
+    -  plugins/diffuse.so [Smooth diffuse BRDF]
+    -  plugins/direct.so [Direct illumination integrator]
+    -  plugins/hdrfilm.so [High dynamic range film]
+    -  plugins/independent.so [Independent sampler]
+    -  plugins/ldsampler.so [Low discrepancy sampler]
+    -  plugins/mlt.so [Path Space Metropolis Light Transport]
+    -  plugins/perspective.so [Perspective camera]
+    -  plugins/roughdielectric.so [Rough dielectric BSDF]
+    -  plugins/serialized.so [Serialized mesh loader]
+    -  plugins/ward.so [Anisotropic Ward BRDF]
+
+  * Bidirectional mutation :
+    -  Acceptance rate : 16.46 % (385.82 K of 2.34 M)
+    -  Successful generation rate : 32.95 % (772.28 K of 2.34 M)
+
+  * Caustic perturbation :
+    -  Acceptance rate : 81.95 % (2.01 M of 2.45 M)
+    -  Successful generation rate : 88.37 % (2.16 M of 2.45 M)
+
+  * General :
+    -  Normal rays traced : 26.745 M
+    -  Shadow rays traced : 12.909 M
+
+  * Lens perturbation :
+    -  Acceptance rate : 79.82 % (1.95 M of 2.45 M)
+    -  Successful generation rate : 86.89 % (2.13 M of 2.45 M)
+
+  * Manifold perturbation :
+    -  Acceptance rate (imp. transport) : 93.25 % (698.46 K of 748.99 K)
+    -  Acceptance rate (rad. transport) : 81.70 % (1.39 M of 1.70 M)
+    -  Non-reversible walks : 0.12 % (2.84 K of 2.42 M)
+    -  Perturbations involving manifold walks : 2.99 % (72.44 K of 2.42 M)
+    -  Rough material treated as specular : 7.13 % (291.85 K of 4.09 M)
+    -  Successful generation rate (imp. transport) : 96.72 % (724.39 K of 748.99 K)
+    -  Successful generation rate (rad. transport) : 88.27 % (1.50 M of 1.70 M)
+
+  * Network :
+    -  Bytes received : 1.006 G
+    -  Bytes sent : 344.283 K
+
+  * Path Space MLT :
+    -  Accepted mutations : 65.70 % (6.43 M of 9.79 M)
+
+  * Specular manifold :
+    -  Avg. iterations per successful walk : 2.95 (238.34 K / 80.75 K)
+    -  Avg. iterations per walk : 7.84 (889.51 K / 113.39 K)
+    -  Avg. manifold size : 4.03 (456.87 K / 113.39 K)
+    -  Max. manifold size : 9
+    -  Non-manifold : 0.00 % (0.00 of 937.10 K)
+    -  Retries (step failed) : 130.769 K
+    -  Retries (step increased distance) : 374.983 K
+    -  Successful steps : 383.753 K
+    -  Successful walks : 71.21 % (80.75 K of 113.39 K)
+    -  Update failed : 4
+------------------------------------------------------------
+2017-05-23 17:00:20 INFO  con0 [StreamBackend] Closing connection to 10.10.1.75 - received 112 KB / sent 350958 KB
+2017-05-23 17:00:20 INFO  con0 [StreamBackend] Closing connection to 10.10.1.75 - received 111 KB / sent 280785 KB
+2017-05-23 17:00:20 INFO  con0 [StreamBackend] Closing connection to 10.10.1.75 - received 112 KB / sent 350823 KB
+srun: Job step aborted: Waiting up to 12 seconds for job step to finish.
+slurmstepd: error: *** JOB 14680664 ON c75 CANCELLED AT 2017-05-23T17:00:45 ***
+srun: error: c380: task 3: Terminated
+srun: Terminating job step 14680664.0
+srun: error: c214: task 1: Terminated
+srun: error: c379: task 2: Terminated
+Got SIGTERM, killing worker processes...
