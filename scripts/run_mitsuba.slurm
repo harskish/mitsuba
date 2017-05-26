@@ -4,7 +4,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=100
+#SBATCH --mem=200
 #SBATCH --partition parallel
 #SBATCH -o mitsuba_slurm.out
 
