@@ -37,10 +37,12 @@ then
    # Kill servers to complete job
    for srv in $workers
    do
-      kill_command="ssh $srv 'pkill -U $USER mtssrv'"
+      kill_command="ssh $srv 'pkill -U $USER mtssrv' &"
       echo "Running command $kill_command"
       eval $kill_command
    done
+   wait
+   echo 'All servers closed'
 else
    # Worker
    mtssrv -q
