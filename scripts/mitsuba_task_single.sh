@@ -11,8 +11,8 @@ SPP=32
 # Get a list of hosts
 nodes=`scontrol show hostnames|xargs`
  
-# Determine current worker name
-me=$(hostname)
+# Determine current worker name, short format
+me=$(hostname -s)
  
 # Determine master process (first node, id 0)
 master=$(echo $nodes | cut -f 1 -d ' ')
