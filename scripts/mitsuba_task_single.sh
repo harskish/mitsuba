@@ -1,11 +1,15 @@
 #!/bin/bash
 
 
-SCENE=$HOME/scenes/veach-bidir-mlt/veach-bidir-mlt.xml
+#SCENE=$HOME/scenes/veach-bidir-mlt/veach-bidir-mlt.xml
+#SCENE=$HOME/scenes/veach-bidir-pt/veach-bidir-pt.xml
+SCENE=$HOME/scenes/kitchen2/batch_pt.xml
+
+SPP=32
 
 
-# Get a list of hosts using python-hostlist
-nodes=`hostlist --expand $SLURM_NODELIST|xargs`
+# Get a list of hosts
+nodes=`scontrol show hostnames|xargs`
  
 # Determine current worker name
 me=$(hostname)
@@ -29,7 +33,7 @@ if [[ "$me" == "$master" && "$localid" -eq 0 ]]
 then
    # Master
    sleep 5
-   command="mitsuba $SCENE -c '$workerlist'"
+   command="mitsuba $SCENE -c '$workerlist' -Dspp=$SPP"
    echo "Master comand: $command"
    
    eval $command
