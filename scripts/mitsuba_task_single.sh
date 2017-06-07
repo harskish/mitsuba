@@ -5,7 +5,7 @@
 #SCENE=$HOME/scenes/veach-bidir-pt/veach-bidir-pt.xml
 SCENE=$HOME/scenes/kitchen2/batch_pt.xml
 
-SPP=32
+SPP=1
 
 
 # Get a list of hosts
@@ -32,8 +32,27 @@ cd ~/mitsuba/logs
 if [[ "$me" == "$master" && "$localid" -eq 0 ]]
 then
    # Master
-   sleep 5
-   command="mitsuba $SCENE -c '$workerlist' -Dspp=$SPP"
+   sleep 5   
+   
+   # Leave some cores purely for networking
+   cores=$(echo $SLURM_JOB_CPUS_PER_NODE | awk -F"(" '{print $1}') # 16(x8) => 16
+   echo "Cores: $cores"
+   nnodes=$SLURM_JOB_NUM_NODES
+   echo "Nodes: $nnodes"
+   if [ "$nnodes" -ge "16" ]; then
+      cores=$((cores - 2))
+      echo 'Leaving two cores idle'
+   elif [ "$nnodes" -ge "8" ]; then
+      cores=$((cores - 1))
+      echo 'Leaving one core idle'
+   fi
+
+   if [ "$cores" -lt "1" ]; then
+      cores=1
+      echo 'Setting cores to 1'
+   fi
+
+   command="mitsuba $SCENE -p $cores -c '$workerlist' -Dspp=$SPP"
    echo "Master comand: $command"
    
    eval $command
