@@ -1,0 +1,77 @@
+Triton build steps
+
+Setup ssh
+cd $WRKDIR, git clone
+mkdir libs
+mkdir build
+
+export LD_LIBRARY_PATH=$WRKDIR/libs/lib:$LD_LIBRARY_PATH
+export CPATH=$WRKDIR/libs/include
+
+== SCons ==
+wget http://prdownloads.sourceforge.net/scons/scons-2.5.1.tar.gz
+python setup.py build
+python setup.py install --home $WRKDIR/libs
+.zshrc: export PATH=$PATH:$WRKDIR/libs/bin
+
+
+== Boost ==
+Boost 1.54 installed by default
+
+
+== Xerces ==
+./configure --prefix=$WRKDIR/libs/
+cd src/ && make
+cd .. && make install
+
+
+== IlmBase ==
+wget http://download.savannah.nongnu.org/releases/openexr/ilmbase-2.2.0.tar.gz
+./configure --prefix=$WRKDIR/libs/
+make
+make install
+
+
+== OpenEXR ==
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WRKDIR/libs/lib:$WRKDIR/libs/lib64
+PKG_CONFIG_PATH=$WRKDIR/libs/lib/pkgconfig ./configure --prefix=$WRKDIR/libs/
+make
+make install
+
+
+== QT ==
+SKIPPED
+
+
+== Eigen3 ==
+wget http://bitbucket.org/eigen/eigen/get/3.3.3.tar.gz
+tar zxf 3.3.3.tar.gz
+cd eigen-eigen-67e894c6cd8f
+cp -r Eigen $WRKDIR/libs/include
+
+
+== FFTW ==
+wget ftp://ftp.fftw.org/pub/fftw/fftw-3.3.6-pl2.tar.gz
+tar zxf fftw-3.3.6-pl2.tar.gz
+./configure --prefix=$WRKDIR/libs/ --enable-threads CFLAGS='-g -O2 -fPIC' CXXFLAGS='-g -O2 -fPIC'
+make
+make install
+
+
+== GLEWmx ==
+export GLEW_DEST=$WRKDIR/libs
+make CFLAGS.EXTRA="-DGLEW_MX -fPIC" LDFLAGS.GL="-lGLU -lGL -lXext -lX11"
+GLINCLUDE      = ['/homeappl/home/harkone2/appl_sisu/libs/include']
+GLLIBDIR       = ['/homeappl/home/harkone2/appl_sisu/libs/lib64']
+
+
+== Building ==
+Specify all libdirs explicitly, otherwise features might be disabled / wrong libs might be used
+
+
+== Running ==
+mkdir logs
+sbatch ...
+
+
+

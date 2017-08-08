@@ -46,12 +46,16 @@ The following are optional dependencies:
 - COLLADA DOM
 
 This guide will cover all libraries, except for COLLADA DOM (covered by the RenderToolbox guide).
-The GUI and its dependencies can be disabled by commenting out the following lines in `mitsuba/config.py`:
->      File ‘SConstruct’:
->          build('src/mtsgui/SConscript', ['mainEnv', ...
->      File ‘build/SConscript.install’:
->          if hasQt:
->              install(distDir, ['mtsgui/mtsgui'])
+The GUI and its dependencies can be disabled by commenting out the following lines:
+- File ‘SConstruct’:
+	```
+	build('src/mtsgui/SConscript', ['mainEnv', ...
+	```
+- File ‘build/SConscript.install’:
+	```
+	if hasQt:
+		install(distDir, ['mtsgui/mtsgui'])
+	```
 
 ### Build environment setup
 The first step is to check if any of the dependencies are availabe through the [module system][cscmod] by running
@@ -172,7 +176,8 @@ Add `source mitsuba/setpath.sh` to `~/.bash_profile` to add the Mitsuba binaries
 
 Run Mitsuba with `mitsuba /path/to/scene.xml`.
 
-
+### Building on Aalto Triton
+See the [Triton build instructions](./triton_build.txt).
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
