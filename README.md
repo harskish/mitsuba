@@ -172,9 +172,11 @@ The Taito environment didn't manage to link mitsuba.o correctly without manually
 Mitsuba links against some shared libraries by default. Since they are installed locally in a non-standard directory, they need to be added to the library search path:
 `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/libs/glew/lib64:$HOME/libs/xerces/lib:$HOME/libs/ilmbase/lib:$HOME/libs/openexr/lib`
 
-Add `source mitsuba/setpath.sh` to `~/.bash_profile` to add the Mitsuba binaries to `PATH`.
-
 Run Mitsuba with `mitsuba /path/to/scene.xml`.
+
+### Using Mitsuba with Slurm
+
+The **scripts** folder contains example Slurm scripts for Taito and Triton. In order to ensure good CPU utilization, make sure that the block size (parameter -b) is small enough in relation to the overall image dimensions. Remote workers maintain a queue of three blocks each, and if the blocks run out, some nodes might be left idle.
 
 ### Building on Aalto Triton
 See the [Triton build instructions](./triton_build.txt).
