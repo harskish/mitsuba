@@ -3,9 +3,10 @@
 
 #SCENE=$HOME/scenes/veach-bidir-mlt/veach-bidir-mlt.xml
 #SCENE=$HOME/scenes/veach-bidir-pt/veach-bidir-pt.xml
-SCENE=$HOME/scenes/kitchen2/batch_pt.xml
+#SCENE=$HOME/scenes/kitchen2/batch_pt.xml
+SCENE=$HOME/scenes/kitchen2/batch_bdpt.xml
 
-SPP=1
+SPP=5000
 
 
 # Get a list of hosts
@@ -52,7 +53,8 @@ then
       echo 'Setting cores to 1'
    fi
 
-   command="mitsuba $SCENE -p $cores -c '$workerlist' -Dspp=$SPP"
+   # Make sure that block is small enough / resolution large enough!
+   command="mitsuba $SCENE -p $cores -b 16 -c '$workerlist' -Dspp=$SPP"
    echo "Master comand: $command"
    
    eval $command

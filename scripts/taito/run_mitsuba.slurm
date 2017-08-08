@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --time 00:05:00
-#SBATCH --nodes=4
+#SBATCH --time 00:12:00
+#SBATCH --nodes=16
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=1000
+#SBATCH --mem=1400
 #SBATCH --partition parallel
 #SBATCH -o mitsuba_slurm.log
 
